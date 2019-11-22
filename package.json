@@ -1,0 +1,21 @@
+{
+  "name": "test-assignment",
+  "version": "1.0.0",
+  "description": "Tests for test assignment on backend developer position",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-integration",
+    "test-integration": "mocha test/Integration/*.test.js --exit"
+  },
+  "author": "Seedium",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.4"
+  }
+}
